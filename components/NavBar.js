@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 export default function NavBar(){
     const router = useRouter();
-    const { width, height, isMobile } = getWindowSize();
+    const { width, height, isMobile } = GetWindowSize();
 
     const [isHidden, setIsHidden] = useState(false)
     const changeTopMenu = () => {
@@ -136,7 +136,7 @@ export default function NavBar(){
     )
 }
 
-export const getWindowSize = () => {
+export const GetWindowSize = () => {
     const [windowSize, setWindowSize] = useState({
       width: 0,
       height: 0,
