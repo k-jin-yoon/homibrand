@@ -60,8 +60,12 @@ export default function Header(){
             }
             @media (prefers-color-scheme: dark) {
                 header {
+                    background-color: rgba(25,25,25,.9);
                     border-bottom: 1px solid rgba(150, 150, 150, 0.5);
                     box-shadow: 0 0 8px 4px rgba(150, 150, 150, 0.25);
+                }
+                .logo-box {
+                    color: var(--foreground-rgb)
                 }
             }
         `}</style>

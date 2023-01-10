@@ -131,6 +131,23 @@ export default function NavBar(){
                         cursor: pointer;
                     }
                 }
+                @media (prefers-color-scheme: dark) {
+                    nav span {
+                        color: var(--primary-color);
+                        transition: border-bottom 0.2s ease-in-out;
+                    }
+                    span:not(.active):hover {
+                        color: var(--primary-color);
+                        border-bottom: 3px solid var(--primary-color);
+                    }
+                    .toggleMenu {
+                        color: var(--primary-color);
+                    }
+                    nav span.active {
+                        color: white;
+                        background-color: var(--primary-color);
+                    }
+                }
             `}</style>
         </nav>
     )
