@@ -46,7 +46,7 @@ export default function Category(){
                     display: flex;
                     gap: 20px;
                     flex-direction: column;
-                    align-items: start;
+                    align-items: center;
                     justify-content: center;
                     width: 100%;
                 }
