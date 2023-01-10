@@ -1,11 +1,4 @@
-import { useEffect, useState } from "react";
-
 export default function Footer(){
-    let [bgMode, setBgMode] = useState(true)
-    useEffect(() => {
-        const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        setBgMode(systemPrefersDark)
-    })
     return (
         <>
             <footer>
@@ -13,7 +6,6 @@ export default function Footer(){
                     <p>
                         <strong>Homi korea</strong>
                     </p>
-                    {/* <p>SYSURBAN</p> */}
                 </div>
                 <div className="copyright">
                     <p>since 2023 © kyol</p>
