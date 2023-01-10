@@ -6,7 +6,7 @@ export default function Category(){
     return (
         <div className="container">
             <Seo title="Category" />
-            <h1>Homi's Category</h1>
+            <h1>Homi Category</h1>
             <div className={styles.grid}>
                 <div className={styles.card}>
                     <h2>끼</h2>

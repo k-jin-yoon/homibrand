@@ -6,7 +6,7 @@ export default function Service(){
     return (
         <div className="container">
             <Seo title="Service" />
-            <h1>Homi's Service</h1>
+            <h1>Homi Service</h1>
             {/* 오시는 길 -> 카카오맵 연동 */}
             <div className="service">
                 <h4>서비스</h4>
